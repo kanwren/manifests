@@ -1,0 +1,4 @@
+# Write paths to .exe files on the lines below, one per line
+# A format like the following is preferred:
+# /c/Users/nprin/Desktop/ProgramName.exe
+
