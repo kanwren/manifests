@@ -1,5 +1,7 @@
 # manifests
 
+Scripts for managing Windows manifest file preferences and creation
+
 To fix your graphics on some Windows devices, manifest files are required. This
 helps you automate the process of setting up and creating those files. You have
 two options:
