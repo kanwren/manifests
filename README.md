@@ -9,7 +9,8 @@ two options:
 ## Using only Windows
 
 Powershell is required in order to set up the registry values and fetch the
-necessary files. Open Powershell with `Windows+r` and run the following command:
+necessary files. Open Powershell with `Windows+r`, navigate to an appropriate
+directory and run the following command:
 
 ```powershell
 iex (Invoke-WebRequest https://raw.githubusercontent.com/nprindle/manifests/master/ps/setup.ps1).Content
@@ -31,7 +32,8 @@ provides a `.sh` file to create the manifest files.
 
 cURL is required in order for the command below to work.
 
-In a terminal or shell, run the following command:
+In a terminal or shell, navigate to an appropraite directory and run the
+following command:
 
 ```bash
 curl https://raw.githubusercontent.com/nprindle/manifests/master/sh/setup.sh | sh
