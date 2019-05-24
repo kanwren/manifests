@@ -24,6 +24,12 @@ scale properly, paste the full path to the `exe` file in a new line in
 C:\Program Files\Folder\AppName.exe
 ```
 
+Then, run the provided batch file to create the manifest files:
+
+```
+create.bat
+```
+
 ## Using git-bash or other Unix utilities
 
 Powershell is still required in order to set the registry values (for now).
@@ -47,3 +53,8 @@ scale properly, paste the full path to the `exe` file in a new line in
 /c/Program Files/Folder/AppName.exe
 ```
 
+Then, run the provided shell script to create the manifest files:
+
+```bash
+sh create.sh
+```
